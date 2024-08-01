@@ -1,9 +1,9 @@
 // import pic from "../../asset/image.png"
-import pic1 from "../../asset/Programming.png"
-import pic2 from "../../asset/accretide.png"
-import pic3 from "../../asset/fexible.png"
-import pic4 from "../../asset/learn.png"
-import pic5 from "../../asset/practical.png"
+import pic1 from "../../../asset/cours/Programming.png"
+import pic2 from "../../../asset/cours/accretide.png"
+import pic3 from "../../../asset/cours/fexible.png"
+import pic4 from "../../../asset/cours/learn.png"
+import pic5 from "../../../asset/cours/practical.png"
 
 
 export const Cyber = () => {

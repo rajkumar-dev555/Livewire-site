@@ -1,4 +1,4 @@
-import live from "../img/live.png"
+import live from "../../asset/img/image.png"
 
 
 function Nav() {
