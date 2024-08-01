@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       {/* <Cybersecurity/> */}
       
-      {/* <Cyber/> */}
       <Nav />
+      <Cyber/>
 
     </div>
   );
