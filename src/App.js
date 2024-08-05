@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       {/* <Cybersecurity/> */}
       
-      <Nav />
+      {/* <Nav /> */}
       <Cyber/>
 
     </div>
