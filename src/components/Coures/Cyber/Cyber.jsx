@@ -18,26 +18,26 @@ export const Cyber = () => {
         },
         {
             image: pic2,
-            title: "Program Duration",
-            hours: "68 Hours",
+            title: "Accredited by",
+            hours: "NSDC",
             apply: "Apply Now"
         },
         {
             image: pic3,
-            title: "Program Duration",
-            hours: "68 Hours",
+            title: "Practical Learning",
+            hours: "Hands-on experience",
             apply: "Apply Now"
         },
         {
             image: pic4,
-            title: "Program Duration",
-            hours: "68 Hours",
+            title: "Fexible Learning",
+            hours: "In-center and online",
             apply: "Apply Now"
         },
         {
             image: pic5,
-            title: "Program Duration",
-            hours: "68 Hours",
+            title: "Learn from",
+            hours: "Industry Experts",
             apply: "Apply Now"
         }
     ]
@@ -66,12 +66,29 @@ export const Cyber = () => {
             <h1 className=" text-3xl font-bold pt-10 pl-10">Course - Key highlights</h1>
 
 
-            <div>
+            <div className="  flex gap-6 justify-center pt-9 ">
                 {Coures.map((Coures, index) => (
-                    <div className="" key={index}>
-                        <img src={Coures.image} alt="" className="h-20" />
+                    <div className="bg-[#F1F6FC] w-52 h-[40vh] rounded" key={index}>
+                        <img src={Coures.image} alt="" className="h-16 mt-9 px-16" />
+                        <h1 className="text-center text-[20px] pt-5 font-medium">{Coures.title}</h1>
+                        <p className="text-center text-sm pt-3">{Coures.hours}</p>
+                        <div className="flex text-blue-500 justify-center pt-5 hover:text-black cursor-pointer">
+                            <h4 className="font-medium">{Coures.apply}</h4>
+                            <div className="pt-1.5 pl-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+
+                        </div>
+
                     </div>
                 ))}
+            </div>
+
+            <div>
+                <h2>hello</h2>
             </div>
 
 
