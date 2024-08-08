@@ -1,4 +1,8 @@
+import { Footer } from "../../Footer/Footer"
+
 // import pic from "../../asset/image.png"
+
+
 import pic1 from "../../../asset/cours/Programming.png"
 import pic2 from "../../../asset/cours/accretide.png"
 import pic3 from "../../../asset/cours/fexible.png"
@@ -50,7 +54,7 @@ export const Cyber = () => {
             <div>
                 <div className="hidden lg:flex">
 
-                    <div className=" bg-[url('https://web.archive.org/web/20240416125644im_/https://livewirecoimbatore.com/wp-content/uploads/2020/06/inner3.jpg')] h-[70vh]">
+                    <div className=" bg-[url('https://web.archive.org/web/20240416125644im_/https://livewirecoimbatore.com/wp-content/uploads/2020/06/inner3.jpg')] bg-no-repeat h-[70vh]">
 
                         <div className=" hidden  lg:flex justify-center">
 
@@ -133,12 +137,12 @@ export const Cyber = () => {
 
                 <h3 className="text-[#7A7A7A] pl-36 pt-9 font-medium hidden lg:flex">Scope & Career Opportunities</h3>
 
-                <p className="text-[#7A7A7A] font-sans w-[70vw] pl-44 pt-6 hidden lg:flex">The course covers a broad range of topics, including penetration testing, vulnerability assessment,
+                <p className="text-[#7A7A7A] font-serif w-[70vw] pl-44 pb-5 pt-6 hidden lg:flex  ">The course covers a broad range of topics, including penetration testing, vulnerability assessment,
                     network security, web application security, and ethical hacking tools and techniques.</p>
 
             </div>
 
-
+             
 
 
             {/* mobile screen */}
@@ -218,6 +222,7 @@ export const Cyber = () => {
                    
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
