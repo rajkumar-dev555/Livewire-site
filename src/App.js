@@ -5,6 +5,7 @@ import Nav from "./components/nav/nav";
 // import { Footer } from "./components/Footer/Footer";
 import { Contact } from "./components/Contact/Contact";
 import { Fullstack } from "./components/Coures/Fullstack/Fullstack";
+import { Java } from "./components/Coures/Java/Java";
 
 
 
@@ -15,9 +16,10 @@ function App() {
       
       {/* <Nav /> */}
       {/* <Cyber/> */}
-      <Contact/>
+      {/* <Contact/> */}
       {/* <Fullstack/> */}
-
+      <Java/>
+         
     </div>
   );
 }
