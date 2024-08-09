@@ -70,10 +70,7 @@ export const Fullstack = () => {
             image: pic6,
             title: "Bootstrap",
         },
-        {
-            image: pic7,
-            title: "Database",
-        },
+       
         {
             image: pic8,
             title: "React",
@@ -98,14 +95,14 @@ export const Fullstack = () => {
             image: pic13,
             title: "Javascript",
         },
-        {
-            image: pic14,
-            title: "Mongodb",
-        },
-
+        
     ]
 
     const Backend = [
+        {
+            image: pic7,
+            title: "Database Sql",
+        },
         {
             image: pic15,
             title: "Express.js",
@@ -122,6 +119,11 @@ export const Fullstack = () => {
             image: pic18,
             title: "Restful API",
         },
+        {
+            image: pic14,
+            title: "Database Mongodb",
+        },
+
     ]
 
 
@@ -187,7 +189,7 @@ export const Fullstack = () => {
                         <div className=" flex lg:pl-[20%] lg:gap-24 lg:w-[75vw] ">
 
                             {Backend.map((Backend, index) => (
-                                <div className="pt-2 " key={index}>
+                                <div className="pt-4 " key={index}>
                                     <img src={Backend.image} alt="" className="h-14" />
                                     <h5 className="pt-2 pb-4 text-sm font-serif text-center">{Backend.title}</h5>
                                 </div>

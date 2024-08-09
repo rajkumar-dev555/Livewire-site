@@ -6,20 +6,22 @@ import Nav from "./components/nav/nav";
 import { Contact } from "./components/Contact/Contact";
 import { Fullstack } from "./components/Coures/Fullstack/Fullstack";
 import { Java } from "./components/Coures/Java/Java";
-
+import { Python } from "./components/Coures/Python/Python";
+import { Datascience } from "./components/Coures/Datascience/Datascience";
 
 
 function App() {
   return (
     <div className="App">
       {/* <Cybersecurity/> */}
-      
+
       {/* <Nav /> */}
       {/* <Cyber/> */}
+      {/* <Fullstack /> */}
+      {/* <Java/>  */}
+      {/* <Python/> */}
+      <Datascience/>
       {/* <Contact/> */}
-      {/* <Fullstack/> */}
-      <Java/>
-         
     </div>
   );
 }
