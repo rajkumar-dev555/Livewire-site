@@ -38,7 +38,7 @@ export const Datascience = () => {
     return (
         <div>
             <div>
-                <div className="bg-[url('https://uswfoxtail.blob.core.windows.net/foxtail-prod-uploads/images/Thinks.8dd35e85.fill-1366x700.format-jpeg.jpegquality-80.jpg')] lg:h-[65vh]">
+                <div className="bg-[url('https://uswfoxtail.blob.core.windows.net/foxtail-prod-uploads/images/Thinks.8dd35e85.fill-1366x700.format-jpeg.jpegquality-80.jpg')] lg:h-[65vh] rounded">
                     <h1 className="text-white font-serif text-[35px] text-center pt-44">Data Science</h1>
                     <h6 className="text-white text-center text-sm lg:pl-70 pt-2  ">Extract insights and patterns from big data for informed decision-making.</h6>
                 </div>
